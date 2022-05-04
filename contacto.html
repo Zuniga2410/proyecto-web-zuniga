@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <!--se agrega estilos-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--se agrega js-->
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+  
+    <!--agregando menu-->
+    <ul>
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="galeria.html">galeria</a></li>
+        <li><a href="contacto.html">contacto</a></li>
+        <li><a href="acerca_de.html">acerca de</a></li>
+        <li><a href="blog.html">blog</a></li>
+    </ul>
+	    PAGINA DE CONTACTOS
+    <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Nombre </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Apellidos</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Pais</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="V.Carranza">V.Carranza</option>
+        <option value="Tuxtla Gutierrez">Tuxtla Gutierrez</option>
+        <option value="Comitan">Comitan</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Mensaje</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
+
+    
+</body>
+
+</html>
